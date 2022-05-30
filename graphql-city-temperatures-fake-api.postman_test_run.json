@@ -1,0 +1,214 @@
+{
+	"id": "a2cc8789-4400-40bd-9c6c-3476f354cfb7",
+	"name": "graphql-city-temperatures-fake-api",
+	"timestamp": "2022-05-30T01:37:50.682Z",
+	"collection_id": "20802395-1d25e13a-2b0a-4929-bb5e-9a0d2f4bdd58",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 16,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9cf5d757-2f76-4ae7-9836-2fb7fb08af8f",
+			"name": "Temperatura atual",
+			"url": "http://localhost:4000/graphql",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Has actual temperature": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has actual temperature": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Has actual temperature": true
+				}
+			]
+		},
+		{
+			"id": "29b67bc6-f4fd-45c3-bad3-89d4ab41df88",
+			"name": "Temperatura mínima e máxima hoje",
+			"url": "http://localhost:4000/graphql",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Has min temperature today": true,
+				"Has max temperature today": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has min temperature today": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has max temperature today": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Has min temperature today": true,
+					"Has max temperature today": true
+				}
+			]
+		},
+		{
+			"id": "1fa520c8-2c6e-4070-ae5c-857e9885bd10",
+			"name": "Temperatura mínima e máximo 7 dias",
+			"url": "http://localhost:4000/graphql",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Has next 7 days temperature": true,
+				"Has max and min temperature of next 7 days": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has next 7 days temperature": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has max and min temperature of next 7 days": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Has next 7 days temperature": true,
+					"Has max and min temperature of next 7 days": true
+				}
+			]
+		},
+		{
+			"id": "bdf94520-db41-488e-a5c9-de6eba3d1392",
+			"name": "Temperatura mínima, atual e máxima hoje",
+			"url": "http://localhost:4000/graphql",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Has actual temperature today": true,
+				"Has min temperature today": true,
+				"Has max temperature today": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has actual temperature today": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has min temperature today": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has max temperature today": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Has actual temperature today": true,
+					"Has min temperature today": true,
+					"Has max temperature today": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 20,
+	"collection": {
+		"requests": [
+			{
+				"id": "9cf5d757-2f76-4ae7-9836-2fb7fb08af8f",
+				"method": "POST"
+			},
+			{
+				"id": "29b67bc6-f4fd-45c3-bad3-89d4ab41df88",
+				"method": "POST"
+			},
+			{
+				"id": "1fa520c8-2c6e-4070-ae5c-857e9885bd10",
+				"method": "POST"
+			},
+			{
+				"id": "bdf94520-db41-488e-a5c9-de6eba3d1392",
+				"method": "POST"
+			}
+		]
+	}
+}
