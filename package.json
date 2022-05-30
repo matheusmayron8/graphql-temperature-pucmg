@@ -1,0 +1,24 @@
+{
+  "name": "graphql-temperature-pucmg",
+  "version": "1.0.0",
+  "description": "Exercicio GraphQL Temperaturas nas cidade - Disciplina de API e Web Services - Pós Graduação em Desenvolvimento Mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusmayron8/graphql-temperature-pucmg.git"
+  },
+  "author": "Matheus Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusmayron8/graphql-temperature-pucmg/issues"
+  },
+  "homepage": "https://github.com/matheusmayron8/graphql-temperature-pucmg#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.5.0"
+  }
+}
